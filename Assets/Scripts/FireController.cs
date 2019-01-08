@@ -5,6 +5,7 @@ public class FireController : MonoBehavior {
   
     void Start() {
         ps = GetComponent<ParticleSystem>();
+        var module = ps.shape;
     }
 
     void Update() {
