@@ -7,7 +7,7 @@ public class FireController : MonoBehavior {
         ps = GetComponent<ParticleSystem>();
         var module = ps.shape;
         module.enabled = true;
-        module.shapeType = ParticleSystemShapeType.Circle;
+        module.shapeType = ParticleSystemShapeType.Cone;
     }
 
     void Update() {
