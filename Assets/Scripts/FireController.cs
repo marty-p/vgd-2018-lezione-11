@@ -1,4 +1,4 @@
-using Unity;
+using UnityEngine;
 public class FireController : MonoBehavior {
     private ParticleSystem ps;
     private float lifetime = 15.0f;
